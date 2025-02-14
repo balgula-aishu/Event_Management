@@ -1,0 +1,101 @@
+/* Register.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(120deg, #ff7e5f, #feb47b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: 350px;
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+  
+  input {
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    font-size: 1rem;
+    color: #333;
+    transition: all 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #feb47b;
+  }
+  
+  button {
+    background-color: #feb47b;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff7e5f;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  input::placeholder {
+    color: #bbb;
+  }
+  
+  input:focus::placeholder {
+    color: #feb47b;
+  }
+  
+  p {
+    /* color: #555; */
+    color: black;
+  }
+  
+  p a {
+    /* color: #feb47b; */
+    color: black;
+    text-decoration: none;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.message {
+  color: red;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  form {
+    padding: 25px;
+    width: 90%;
+  }
+}
+  
